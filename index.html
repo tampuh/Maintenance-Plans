@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maintenance Plans | Star Light Mobile Detailing</title>
+
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3078/3078048.png" type="image/png">
+
+  <style>
+    :root{
+      --aqua:#4fc3f7;
+      --aqua-light:#81d4fa;
+      --navy:#1b2a41;
+      --glass: rgba(255,255,255,0.35);
+    }
+    *{box-sizing:border-box}
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      background: linear-gradient(to bottom, #e9f7ff, #cfefff);
+      color: var(--navy);
+    }
+    header {
+      position:sticky;top:0;z-index:40;
+      background: linear-gradient(to right, #dff6ff, #bde8ff);
+      padding: 14px 20px;
+      display:flex;align-items:center;justify-content:space-between;
+      border-bottom: 1px solid #9fdcff;
+      backdrop-filter: blur(6px);
+    }
+    .brand-title{
+      font-size:1.2rem;
+      color:var(--aqua);
+      letter-spacing:1px;
+      font-weight:700;
+    }
+    .section{
+      max-width:900px;
+      margin:28px auto;
+      padding:0 20px;
+    }
+    .section h2{
+      text-align:center;
+      color:var(--aqua);
+      margin-bottom:14px;
+    }
+    .card{
+      background:var(--glass);
+      border:1px solid #a7e3ff;
+      border-radius:16px;
+      padding:20px;
+      backdrop-filter:blur(10px);
+      box-shadow:0 6px 20px rgba(79,195,247,0.16);
+      margin-bottom:18px;
+    }
+    ul{
+      padding-left:18px;
+    }
+    li{
+      margin-bottom:6px;
+    }
+    .price-box{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:18px;
+      margin-top:20px;
+    }
+    .price{
+      font-size:1.6rem;
+      font-weight:700;
+      color:#03314d;
+      margin-top:6px;
+    }
+    footer{
+      background:linear-gradient(to right,#dff6ff,#bde8ff);
+      padding:18px;
+      text-align:center;
+      border-top:1px solid #c9f0ff;
+      margin-top:40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand-title">Star Light Mobile Detailing</div>
+</header>
+
+<section class="section">
+  <h2>Maintenance Plans</h2>
+
+  <div class="card">
+    <p>
+      Our maintenance plans are designed for clients who want their vehicle kept
+      consistently clean without needing frequent full details.
+    </p>
+    <p>
+      These services are available <strong>after an initial full detail</strong>
+      and focus on preserving the vehicle’s condition, not correcting heavy wear.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>What’s Included</h2>
+
+  <div class="card">
+    <strong>Exterior</strong>
+    <ul>
+      <li>Hand wash and dry</li>
+      <li>Wheel and tire cleaning</li>
+      <li>Tire dressing</li>
+      <li>Exterior glass cleaning</li>
+      <li>Light paint condition inspection</li>
+    </ul>
+
+    <strong>Interior</strong>
+    <ul>
+      <li>Light vacuum</li>
+      <li>Wipe-down of high-touch surfaces</li>
+      <li>Interior glass cleaning</li>
+      <li>Light dust and debris removal</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Not Included (Add-Ons)</h2>
+
+  <div class="card">
+    <ul>
+      <li>Pet hair removal</li>
+      <li>Stain removal</li>
+      <li>Heavy interior cleaning</li>
+      <li>Carpet shampooing or steam cleaning</li>
+      <li>Paint decontamination or correction</li>
+    </ul>
+    <p style="margin-top:10px;font-size:.95rem;opacity:.9">
+      Add-ons are available if needed and priced separately.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Plan Options & Pricing</h2>
+
+  <div class="price-box">
+
+    <div class="card">
+      <h3>Monthly Maintenance</h3>
+      <p>Ideal for daily drivers and consistently used vehicles.</p>
+      <div class="price">Sedan: $50 / visit</div>
+      <div class="price">SUV / Truck: $60 / visit</div>
+      <p style="margin-top:10px;font-size:.95rem">
+        Service every 4–5 weeks
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Quarterly Maintenance</h3>
+      <p>Best for lighter-use vehicles or garage-kept cars.</p>
+      <div class="price">Sedan: $150 / visit</div>
+      <div class="price">SUV / Truck: $170 / visit</div>
+      <p style="margin-top:10px;font-size:.95rem">
+        Service every 3 months
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="card">
+    <strong>Important Notes</strong>
+    <ul>
+      <li>Initial full detail required before enrollment</li>
+      <li>Pricing assumes maintained condition</li>
+      <li>Excessive dirt or neglect may require add-ons</li>
+      <li>Plans can be adjusted or canceled anytime</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Star Light Mobile Detailing
+</footer>
+
+</body>
+</html>
